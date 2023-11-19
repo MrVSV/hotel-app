@@ -1,0 +1,17 @@
+<resources>
+    <style name="Base.Theme.HotelTestApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="backgroundColor">@color/background</item>
+        <item name="background">@color/background</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="textInputStyle">@style/TextInputLayoutStyle</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.HotelTestApp" parent="Base.Theme.HotelTestApp">
+
+
+    </style>
+</resources>

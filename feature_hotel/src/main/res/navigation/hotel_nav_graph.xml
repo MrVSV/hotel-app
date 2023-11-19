@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hotel_nav_graph"
+    app:startDestination="@id/hotelFragment">
+
+    <fragment
+        android:id="@id/hotelFragment"
+        android:name="com.vsv.feature_hotel.presentation.HotelFragment"
+        android:label="@string/hotel_fragment_label"
+        tools:layout="@layout/fragment_hotel">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="android-app:/hotel" />
+    </fragment>
+    <deepLink
+        android:id="@+id/deepLink2"
+        app:uri="android-app:/hotel" />
+</navigation>

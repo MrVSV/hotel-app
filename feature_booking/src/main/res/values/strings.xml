@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hotel_rating">%1$d %2$s</string>
+    <string name="booking_dates">%1$s - %2$s</string>
+    <string name="booking_fragment_label">Бронирование</string>
+    <string name="tour_price">%1$s ₽</string>
+    <string name="fuel_charge">%1$s ₽</string>
+    <string name="service_charge">%1$s ₽</string>
+    <string name="total_price">%1$s ₽</string>
+    <string name="big_blue_button_text">Оплатить %1$s ₽</string>
+    <string name="max_tourist">Максимум туристов</string>
+    <string name="add_tourist">Добавить туриста</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="country">Гражданство</string>
+    <string name="foreign_passport_number">Номер загранпаспорта</string>
+    <string name="foreign_passport_date">Срок действия загранпаспорта</string>
+    <string name="expand_tourist_window">Expand tourist window</string>
+    <string name="order_paid_fragment_label">Заказ оплачен</string>
+    <string name="confirmation">Подтверждение заказа №%1$d может занять некоторое время (от 1 часа до суток). Как только мы получим ответ от туроператора, вам на почту придет уведомление.</string>
+    <string name="order_confirmed">Ваш заказ принят в работу</string>
+    <string name="departure">Вылет из</string>
+    <string name="arrival_country">Страна, город</string>
+    <string name="dates">Даты</string>
+    <string name="number_of_nights">Кол-во ночей</string>
+    <string name="hotel">Отель</string>
+    <string name="room">Номер</string>
+    <string name="nutrinion">Питание</string>
+    <string name="customer_info">Информация о покупателе</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="email">Почта</string>
+    <string name="data_security">Эти данные никому не передаются. После оплаты мы вышли чек на указанный вами номер и почту</string>
+    <string name="tour">Тур</string>
+    <string name="fuel_charge_text">Топливный сбор</string>
+    <string name="service_charge_text">Сервисный сбор</string>
+    <string name="total_text">К оплате</string>
+    <string-array name="tourist_number">
+        <item>Первый турист</item>
+        <item>Второй турист</item>
+        <item>Третий турист</item>
+        <item>Четвертый турист</item>
+    </string-array>
+</resources>

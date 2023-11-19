@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rooms_nav_graph"
+    app:startDestination="@id/roomsFragment">
+
+    <fragment
+        android:id="@+id/roomsFragment"
+        android:name="com.vsv.feature_rooms.presentation.RoomsFragment"
+        android:label="fragment_rooms"
+        tools:layout="@layout/fragment_rooms">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="android-app:/rooms/{hotelName}" />
+        <argument
+            android:name="hotelName"
+            android:defaultValue=""
+            app:argType="string" />
+
+    </fragment>
+</navigation>

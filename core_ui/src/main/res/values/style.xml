@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TitleText" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+        <item name="fontFamily">@font/sf_pro_display_bold</item>
+    </style>
+
+    <style name="PriceText" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+        <item name="fontFamily">@font/sf_pro_display_bold</item>
+    </style>
+
+    <style name="BodyBlackText" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+    </style>
+
+    <style name="BodyGreyText" parent="BodyBlackText">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="singleLine">false</item>
+    </style>
+
+    <style name="SupportGreyText" parent="BodyGreyText">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ChipGroupItemText" parent="BodyGreyText">
+        <item name="fontFamily">@font/sf_pro_display_bold</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+    </style>
+
+    <style name="ChipGroupItem" parent="Widget.Material3.Chip.Input">
+        <item name="android:textAppearance">@style/ChipGroupItemText</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="closeIcon">@null</item>
+    </style>
+
+    <style name="BigBlueButton" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">@style/BigBlueButtonShape</item>
+    </style>
+
+    <style name="BigBlueButtonShape" parent="ShapeAppearance.M3.Comp.FilledButton.Container.Shape">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="HotelRatingText" parent="">
+        <item name="android:textColor">@color/hotel_rating_chip_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingVertical">5dp</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+        <item name="android:background">@drawable/hotel_rating_background</item>
+    </style>
+
+    <style name="HotelAdressText" parent="">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="boxBackgroundColor">@color/background</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

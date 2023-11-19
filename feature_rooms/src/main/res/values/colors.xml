@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="room_detail_button_text_color" tools:ignore="MissingDefaultResource">#0D72FF</color>
+    <color name="room_detail_button_background_color" tools:ignore="MissingDefaultResource">#330D72FF</color>
+</resources>
